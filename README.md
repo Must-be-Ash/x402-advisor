@@ -19,11 +19,6 @@ Requires `.env.local` with `ANTHROPIC_API_KEY` and `FIRECRAWL_API_KEY` (gitignor
 
 Next.js 16 · React 19 · TypeScript · Tailwind v4 · shadcn/ui · `@anthropic-ai/sdk` (`claude-opus-4-8`) · Firecrawl. Coinbase-styled (Coinbase Sans/Mono, cb palette).
 
-## ⚠️ Brand assets — before making this repo public
+## Secrets
 
-This repo is **private**. It ships **proprietary Coinbase brand assets**:
-
-- `public/fonts/Coinbase_*.woff2` — Coinbase Sans / Mono (proprietary)
-- `public/logos/cb.svg` — the Coinbase mark
-
-**Before making the repo public**, remove or replace these: delete the font files (and the `localFont` block in `src/app/layout.tsx`, so it falls back to a system sans), and swap `cb.svg` for a neutral mark. No secrets are committed — `.env*` is gitignored.
+No secrets are committed — `.env*` is gitignored. Copy `.env.example` to `.env.local` and fill in `ANTHROPIC_API_KEY` and `FIRECRAWL_API_KEY`.
