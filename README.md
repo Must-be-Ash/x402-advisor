@@ -1,5 +1,7 @@
 # app-advisor — x402 Setup Advisor
 
+> **Not maintained.** x402 and the services this uses may have changed since it was built; check the latest x402 docs before relying on it.
+
 An **advisor-only** experiment. Paste your API **docs URL / OpenAPI / GitHub repo / a description** → it crawls your product → then, like the `x402-start` skill, it **forms a plan** and lets you **iterate in a chat**. No code generation, no dashboard, no manual entry — just advice you can share.
 
 Output is a **table** (each endpoint → recommended x402 setup) with **plain-language one-liner explanations** (so a teammate who's never heard of "SIWX" gets it), plus a **downloadable markdown spec**.
